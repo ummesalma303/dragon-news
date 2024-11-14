@@ -1,8 +1,8 @@
 import React from 'react';
 
-import Home from '../../pages/Home';
+import Home from '../pages/Home';
 
-const Main = () => {
+const MainLayout = () => {
     return (
         <div className='font-poppins w-11/12 mx-auto'>
           <Home></Home>
@@ -10,4 +10,4 @@ const Main = () => {
     );
 };
 
-export default Main;
+export default MainLayout;
